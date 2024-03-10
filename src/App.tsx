@@ -1,15 +1,17 @@
+/* eslint-disable */
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import './App.css';
 import './style.css';
 import Counter from './01/count'
 import Table from './02/table'
-import ImgTest from './03/img'
+// import Timer2 from './03/Time1'
 import intelligence from './04/index'
 
 const routes: any[] = [
   ["01 Counter", Counter],
   ["02 Table", Table],
-  ["03 ImgTest", ImgTest],
+  // ["03 Time", Timer2],
+  // ["03 ImgTest", ImgTest],
   ["04 intelligence", intelligence],
   // ["04 VideoJS", VideoJS]
 ]
